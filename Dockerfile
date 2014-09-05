@@ -4,4 +4,4 @@ FROM etna/drone-debian
 RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get install -y nodejs
 
-npm install -g phantomjs grunt gulp bower
+RUN npm install -g phantomjs grunt gulp bower
